@@ -1,0 +1,29 @@
+<header>
+    
+    <div class="sidebar-fixed position-fixed">
+        <br><br><br><br>
+        <div class="list-group list-group-flush">
+            <a routerLink="component-store" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+                <mdb-icon fas icon="fas fa-th-large" class="mr-3"></mdb-icon></a>
+            <a routerLink="search" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+                <mdb-icon fas icon="fas fa-search" class="mr-3"></mdb-icon></a>
+            <a routerLink="store" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+                <mdb-icon fas icon="fas fa-store" class="mr-3"></mdb-icon></a>
+        </div>
+    </div>
+
+    <mdb-navbar [containerInside]="false" SideClass="navbar navbar-expand-lg navbar-light white">
+        <a><img src="../../../../assets/img/whitepanda.png" alt="whitepanda" style="padding-left: 60px"> </a>
+
+        <links style="padding-left: 80%">
+            <ul class="navbar-nav" style="align-items: flex-end">
+                <li class="nav-item" style="padding-bottom: 15%">
+                    <i class="fas fa-bell" style="font-size: 150%;"></i>
+                </li>
+                <li class="nav-item" style="padding-left: 30%">
+                    <img src="../../../../assets/img/profile.png" alt="profile" class="rounded-circle">
+                </li>
+            </ul>
+        </links>
+    </mdb-navbar>
+</header>
