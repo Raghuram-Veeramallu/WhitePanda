@@ -1,4 +1,4 @@
-![Screen Shot](https://raw.githubusercontent.com/Raghuram-Veeramallu/WhitePanda/blob/master/sreen.png)
+![Screen Shot](https://github.com/Raghuram-Veeramallu/WhitePanda/blob/master/screen.PNG "Screen Shot")
 
 # WhitePanda
 
